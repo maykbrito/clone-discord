@@ -17,7 +17,7 @@ export const Button = styled.button<Props>`
     margin-bottom: 8px;
 
     background-color: ${(props) => 
-    props.isHome ? 'var(--rocketseat)' : 'var(--primary)'};
+    props.color ? props.color : 'var(--primary)'};
 
     position: relative;
 

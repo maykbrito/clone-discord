@@ -34,11 +34,11 @@ yarn run test
 ```
 
 ## Tecnologies used in this project
-[] Typescript
-[] React
-[] Styled Components
-[] Styled Icons
-[] Rocketseat sugar
+- [ ] Typescript
+- [ ] React
+- [ ] Styled Components
+- [ ] Styled Icons
+- [ ] Rocketseat sugar
 
 ## Author
 

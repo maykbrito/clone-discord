@@ -11,6 +11,10 @@
 
 > Just Practing 
 
+To see it in production
+
+https://youthful-booth-c4a29c.netlify.app/
+
 ## Install
 
 ```sh
@@ -28,6 +32,13 @@ yarn run start
 ```sh
 yarn run test
 ```
+
+## Tecnologies used in this project
+[] Typescript
+[] React
+[] Styled Components
+[] Styled Icons
+[] Rocketseat sugar
 
 ## Author
 

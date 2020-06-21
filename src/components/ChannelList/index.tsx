@@ -7,12 +7,14 @@ const ServerName: React.FC = () => {
     return (
         <Container>
             <Category>
-                <span>Text Channel</span>
+                <span>Text Channels</span>
                 <AddCategoryIcon />
             </Category>
 
-            <ChannelButton channelName="free-chat" />
+            <ChannelButton selected channelName="honey" />
             <ChannelButton channelName="flowers" />
+            <ChannelButton channelName="hive" />
+            <ChannelButton channelName="queen" />
         </Container>
     )
 };

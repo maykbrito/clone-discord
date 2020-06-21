@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+import { colors } from "../utils";
+
 export default createGlobalStyle`
     * {
         margin: 0;
@@ -23,25 +25,25 @@ export default createGlobalStyle`
     }
 
     :root {
-        --primary: #36393f;
-        --secondary: #2f3136;
-        --tertiary: rgb(32,34,37);
-        --quaternary: #292b2f;
-        --quinary: #393d42;
-        --senary: #828386;
+        --primary: ${colors["primary"]};
+        --secondary: ${colors["secondary"]};
+        --tertiary: ${colors["tertiary"]};
+        --quaternary: ${colors["quaternary"]};
+        --quinary: ${colors["quinary"]};
+        --senary: ${colors["senary"]};
+
+        --white: ${colors["white"]};
+        --gray: ${colors["gray"]};
+        --chat-input: ${colors["chat-input"]};
+        --symbol: ${colors["symbol"]};
     
-        --white: #fff;
-        --gray: #8a8c90;
-        --chat-input: rgb(64,68,75);
-        --symbol: #74777a;
+        --notification: ${colors["notification"]};
+        --discord: ${colors["discord"]};
+        --mention-detail: ${colors["mention-detail"]};
+        --mention-message: ${colors["mention-message"]};
     
-        --notification: #f84a4b;
-        --discord: #6e86d6;
-        --mention-detail: #f9a839;
-        --mention-message: #413f3f;
+        --link: ${colors["link"]};
     
-        --link: #5d80d6;
-    
-        --rocketseat: #6633cc;
+        --rocketseat: ${colors["rocketseat"]};
     }
 `;

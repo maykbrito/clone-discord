@@ -24,12 +24,6 @@ const ServerList: React.FC = () => {
                 serverName="Masket"
                 mentions={3}
             />
-            <ServerButton />
-            <ServerButton hasNotifications />
-            <ServerButton />
-            <ServerButton />
-            <ServerButton mentions={32} />
-            <ServerButton />
         </Container>
     )
 };

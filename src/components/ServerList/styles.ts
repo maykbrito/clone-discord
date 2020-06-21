@@ -12,7 +12,7 @@ export const Container = styled.div`
 
     padding: 11px 0;
 
-    max-height: 100vh;
+    min-height: 100vh;
 
     /* custom scroll */
     overflow-y: scroll;

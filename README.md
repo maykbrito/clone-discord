@@ -33,7 +33,7 @@ yarn run start
 yarn run test
 ```
 
-## Tecnologies used in this project
+## Technologies used in this project
 - [ ] Typescript
 - [ ] React
 - [ ] Styled Components

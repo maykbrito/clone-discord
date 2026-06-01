@@ -42,6 +42,8 @@
     "@types/styled-components": "^5.1.0"
   },
   "resolutions": {
-    "tmp": "^0.2.7"
+    "tmp": "^0.2.7",
+    "cross-spawn": "^7.0.6",
+    "ws": "^8.17.1"
   }
 }

@@ -40,5 +40,8 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.0"
+  },
+  "resolutions": {
+    "tmp": "^0.2.7"
   }
 }
